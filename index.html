@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Total-Controle</title>
+</head>
+<body>
+    <section class="main">
+        <div class="titulo">
+            <h2>Total Controle</h2>
+        </div>
+        <div class="formulario">
+            <fieldset>
+                <form action="" method="post">
+                    
+
+                    <label for="valor">Insira o valor</label>
+                    <input type="text" id="valor">
+
+                    <label for="selecao">Marque o metodo utilizado</label>
+
+                    <select name="select" id="selecao">
+                        <option value="credito">Credito</option>
+                        <option value="debito" selected>Debito</option>
+                        <option value="pix">Pix</option>
+                    </select>
+
+                    
+
+                    <label for="data">Insira a data</label>
+                    <input type="date" id="data">
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </fieldset>
+        </div>
+        
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>

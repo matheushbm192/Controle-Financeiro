@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    height: 98vh;
+    background-color:rgb(62, 233, 210)
+}
+
+section.main {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;
+    position: relative;
+    /* bottom: 20%; */
+    background-color:rgb(123, 167, 206);
+    border-radius: 5%;
+    
+}
+
+section.main > div.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 80%;
+   
+
+}
+
+section.main > div.formulario > fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 90%;
+    border: none;
+}
+
+section.main > div.formulario > fieldset > form {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+section.main > div.formulario > fieldset > form > label {
+
+}
+
+section.main > div.formulario > fieldset > form > select,
+section.main > div.formulario > fieldset > form > input {
+    margin-bottom: 20px;
+
+}
